@@ -10,7 +10,11 @@ namespace RefactoringSamples.MethodLevel.ConditionalComplexity
         IList<Item> Items;
         static void Main2(string[] args)
         {
+            
             System.Console.WriteLine("OMGHAI!");
+            
+            
+            
 
             var app = new GildedRoseConsoleProgram()
             {
@@ -34,6 +38,8 @@ namespace RefactoringSamples.MethodLevel.ConditionalComplexity
             app.UpdateQuality();
 
             System.Console.ReadKey();
+            
+            System.Console.WriteLine("HELLO FROM UST");
 
         }
 
